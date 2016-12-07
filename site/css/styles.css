@@ -1,0 +1,66 @@
+body {
+  font-size: 16px;
+  color: Black;
+  background-color: White;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+  background-color: #A09292;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { 
+  font-family: 'Lora', serif;
+  color: Black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#nav-list {
+  margin-top: 2px;
+  text-align: center;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+/********** Desktop **********/
+@media (min-width: 992px) {
+  .col-md-12 {
+    margin: 3% 1% 0% 1%;
+    background-color: #A09292; 
+    float: left;
+    width: 98%;
+  }
+}
+
+/********** Tablet **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-sm-12 {
+    margin: 3% 1% 0% 1%;
+    background-color: #A09292; 
+    float: left;
+    width: 98%;
+  }
+}
+/********** Phone **********/
+@media (min-width: 0px) and (max-width: 767px) {
+  .col-xs-12 {
+    margin: 3% 1% 0% 1%;
+    background-color: #A09292; 
+    float: left;
+    width: 98%;
+  }
+}
